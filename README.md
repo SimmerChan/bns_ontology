@@ -1,4 +1,4 @@
-按照类,类之间的关系和类的属性来进行设计。
+按照类,类之间的关系和类的属性来进行设计。利用Protege打开本项目中的owl文件可以查看具体结构。
 
 # 1.人物(Person)
 子类：佛教徒(Buddhist)
@@ -52,6 +52,7 @@
     14. 其他译名(otherTransliteratedName)
     15. 本姓(originalSurname)
     16. 法号(dharmaName)
+    17. 行第(birthOrder)
 5. 性别(personGender)
 6. 享年(personDeathAge)
 7. 种族(personEthnicity)

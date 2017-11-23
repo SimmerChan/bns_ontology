@@ -621,6 +621,16 @@
     
 
 
+    <!-- http://www.cadal.zju.edu.cn/bns/birthOrder -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cadal.zju.edu.cn/bns/birthOrder">
+        <rdfs:subPropertyOf rdf:resource="http://www.cadal.zju.edu.cn/bns/personAppellation"/>
+        <rdfs:domain rdf:resource="http://www.cadal.zju.edu.cn/bns/Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.cadal.zju.edu.cn/bns/childhoodCourtesyName -->
 
     <owl:DatatypeProperty rdf:about="http://www.cadal.zju.edu.cn/bns/childhoodCourtesyName">
@@ -1941,6 +1951,12 @@
     <owl:Class rdf:about="http://www.cadal.zju.edu.cn/bns/YinPrivilege">
         <rdfs:subClassOf rdf:resource="http://www.cadal.zju.edu.cn/bns/ModeOfEntry"/>
     </owl:Class>
+    
+
+
+    <!-- http://www.unibz.it/inf/obdaplugin#RandomClass6677841155 -->
+
+    <owl:Class rdf:about="http://www.unibz.it/inf/obdaplugin#RandomClass6677841155"/>
     
 
 
