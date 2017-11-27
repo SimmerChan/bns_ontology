@@ -196,7 +196,7 @@
 
     <owl:ObjectProperty rdf:about="http://www.cadal.zju.edu.cn/bns/hasEntryNonKinship">
         <rdfs:domain rdf:resource="http://www.cadal.zju.edu.cn/bns/ModeOfEntry"/>
-        <rdfs:range rdf:resource="http://www.cadal.zju.edu.cn/bns/NonkinshipAssociation"/>
+        <rdfs:range rdf:resource="http://www.cadal.zju.edu.cn/bns/Person"/>
     </owl:ObjectProperty>
     
 
