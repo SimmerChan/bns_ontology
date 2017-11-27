@@ -697,6 +697,15 @@
     
 
 
+    <!-- http://www.cadal.zju.edu.cn/bns/entryKinshipType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cadal.zju.edu.cn/bns/entryKinshipType">
+        <rdfs:domain rdf:resource="http://www.cadal.zju.edu.cn/bns/ModeOfEntry"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.cadal.zju.edu.cn/bns/entryNianhao -->
 
     <owl:DatatypeProperty rdf:about="http://www.cadal.zju.edu.cn/bns/entryNianhao">
@@ -713,6 +722,15 @@
         <rdfs:subPropertyOf rdf:resource="http://www.cadal.zju.edu.cn/bns/numericYear"/>
         <rdfs:domain rdf:resource="http://www.cadal.zju.edu.cn/bns/ModeOfEntry"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cadal.zju.edu.cn/bns/entryNonKinshipType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cadal.zju.edu.cn/bns/entryNonKinshipType">
+        <rdfs:domain rdf:resource="http://www.cadal.zju.edu.cn/bns/ModeOfEntry"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
