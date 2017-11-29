@@ -215,6 +215,7 @@
     <owl:ObjectProperty rdf:about="http://www.cadal.zju.edu.cn/bns/hasEventAddress">
         <rdfs:subPropertyOf rdf:resource="http://www.cadal.zju.edu.cn/bns/hasAddress"/>
         <rdfs:domain rdf:resource="http://www.cadal.zju.edu.cn/bns/Event"/>
+        <rdfs:domain rdf:resource="http://www.cadal.zju.edu.cn/bns/RelationBetweenPersonAndEvent"/>
         <rdfs:range rdf:resource="http://www.cadal.zju.edu.cn/bns/Place"/>
     </owl:ObjectProperty>
     
