@@ -759,7 +759,58 @@
 
     <owl:DatatypeProperty rdf:about="http://www.cadal.zju.edu.cn/bns/eventContent">
         <rdfs:domain rdf:resource="http://www.cadal.zju.edu.cn/bns/Event"/>
+        <rdfs:domain rdf:resource="http://www.cadal.zju.edu.cn/bns/RelationBetweenPersonAndEvent"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cadal.zju.edu.cn/bns/eventDay -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cadal.zju.edu.cn/bns/eventDay">
+        <rdfs:subPropertyOf rdf:resource="http://www.cadal.zju.edu.cn/bns/numericDay"/>
+        <rdfs:domain rdf:resource="http://www.cadal.zju.edu.cn/bns/RelationBetweenPersonAndEvent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cadal.zju.edu.cn/bns/eventDayGanzhi -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cadal.zju.edu.cn/bns/eventDayGanzhi">
+        <rdfs:subPropertyOf rdf:resource="http://www.cadal.zju.edu.cn/bns/ganzhiDay"/>
+        <rdfs:domain rdf:resource="http://www.cadal.zju.edu.cn/bns/RelationBetweenPersonAndEvent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cadal.zju.edu.cn/bns/eventMonth -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cadal.zju.edu.cn/bns/eventMonth">
+        <rdfs:subPropertyOf rdf:resource="http://www.cadal.zju.edu.cn/bns/month"/>
+        <rdfs:domain rdf:resource="http://www.cadal.zju.edu.cn/bns/RelationBetweenPersonAndEvent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cadal.zju.edu.cn/bns/eventNianhao -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cadal.zju.edu.cn/bns/eventNianhao">
+        <rdfs:subPropertyOf rdf:resource="http://www.cadal.zju.edu.cn/bns/nianhao"/>
+        <rdfs:domain rdf:resource="http://www.cadal.zju.edu.cn/bns/RelationBetweenPersonAndEvent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cadal.zju.edu.cn/bns/eventNianhaoYear -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cadal.zju.edu.cn/bns/eventNianhaoYear">
+        <rdfs:subPropertyOf rdf:resource="http://www.cadal.zju.edu.cn/bns/numericYear"/>
+        <rdfs:domain rdf:resource="http://www.cadal.zju.edu.cn/bns/RelationBetweenPersonAndEvent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
     </owl:DatatypeProperty>
     
 
@@ -778,7 +829,18 @@
 
     <owl:DatatypeProperty rdf:about="http://www.cadal.zju.edu.cn/bns/eventType">
         <rdfs:domain rdf:resource="http://www.cadal.zju.edu.cn/bns/Event"/>
+        <rdfs:domain rdf:resource="http://www.cadal.zju.edu.cn/bns/RelationBetweenPersonAndEvent"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cadal.zju.edu.cn/bns/eventYear -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cadal.zju.edu.cn/bns/eventYear">
+        <rdfs:subPropertyOf rdf:resource="http://www.cadal.zju.edu.cn/bns/numericYear"/>
+        <rdfs:domain rdf:resource="http://www.cadal.zju.edu.cn/bns/RelationBetweenPersonAndEvent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
     </owl:DatatypeProperty>
     
 
