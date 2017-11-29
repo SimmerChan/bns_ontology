@@ -38,7 +38,7 @@
 4. 称谓(personAppellation)
     1. 别名、曾用名(alternateNameOrPreviouslyUsedName)
     2. 字(courtesyName)
-    3. 室名、别号(StudioNameOrStyleName)
+    3. 室名、别号(studioNameOrStyleName)
     4. 谥号(posthumousName)
     5. 封爵(enfeoffmentTitle)
     6. 小名(childhoodName)
@@ -123,6 +123,7 @@
 12. 首年日干支(firstYearDayGanzhi)
 13. 末年日干支(lastYearDayGanzhi)
 14. 事件类型(eventType)
+15. 事件名称(eventName)
 
 
 # 5.机构(SocialInstitution)
@@ -252,14 +253,14 @@
 4. 前住地(FormerAddress)
 5. 最后所知地(LastKnownAddress)
 6. 祖籍(AncestralAddress)
-6. 实际居住地(ActualResidence)
-7. 原籍/本贯(HouseholdRegistration)
-8. 葬地(BurialAddress)
-9. 死所(DeathAddress)
-10 游历/曾经到过(VisitedOrWentTo)
-11. 另一籍贯(AlternateBasicAffiliation)
-12. 户籍地(HouseholdAddress)
-13. 其他(OtherAddressRelation)
+7. 实际居住地(ActualResidence)
+8. 原籍/本贯(HouseholdRegistration)
+9. 葬地(BurialAddress)
+10. 死所(DeathAddress)
+11 游历/曾经到过(VisitedOrWentTo)
+12. 另一籍贯(AlternateBasicAffiliation)
+13. 户籍地(HouseholdAddress)
+14. 其他(OtherAddressRelation)
 
 ## 10.1 对象属性(object properties)
 1. 地址(hasAddress)，领域：人与地点的关系，范围：地点。
@@ -295,15 +296,24 @@
 3. 首年年号(firstYearNianhao)
 4. 末年年号(lastYearNianhao)
 5. 首年年号年(firstYearNianhaoYear)
-6. 末年年号年(LastYearNianhaoYear)
+6. 末年年号年(lastYearNianhaoYear)
 
 
 # 12.人与事件的关系(RelationBetweenPersonAndEvent)
 ## 12.1 对象属性(object properties)
 1. 事件(hasEvent)，领域：人与事件的关系，范围：事件。
+2. 发生地点(hasEventAddress)，领域：人与事件的关系，范围：地点。
 
 ## 12.2 数据属性(data properties)
 1. 事件次序(eventSequence)
+2. 事件内容(eventContent)
+3. 事件类型(eventType)
+4. 事件年份(eventYear)
+5. 事件年号(eventNianhao)
+6. 事件年号年(eventNianhaoYear)
+7. 事件月份(eventMonth)
+8. 事件日(eventDay)
+9. 事件日(eventDayGanzhi)
 
 # 13.职位(Office)
 ## 13.1 对象属性(object properties)
